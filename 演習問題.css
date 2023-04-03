@@ -12,7 +12,7 @@ header {
 
 main {
   width: 100%;
-  display: block;
+  display:flex;
 }
 
 .main-box {
@@ -50,5 +50,11 @@ footer {
   width: 100%;
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px) {
+  .main-visual{
+  
+ }
 }
 
