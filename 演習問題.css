@@ -10,6 +10,10 @@ header {
   background-color: #ff9a4b;
 }
 
+.main-visual {
+  display: flex;
+}
+
 main {
   width: 100%;
   display:flex;
@@ -53,8 +57,8 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-  .main-visual{
-  
+  .main-visual {
+    display: block;
  }
 }
 
